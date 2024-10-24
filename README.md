@@ -25,3 +25,14 @@ Key Activities:-
 Technologies used :
 For frontend - HTML , CSS3, tailwind, bootstrap
 For backend - Javascript & expressJS
+
+Pictures:-
+![image](https://github.com/user-attachments/assets/51a21a42-ec79-4d15-9499-0785380fdfe8)
+![image](https://github.com/user-attachments/assets/12e670f7-f8d5-4d3a-bdc0-3b7827b6cb3f)
+![image](https://github.com/user-attachments/assets/c6a5dd9b-7261-4e2e-b3fd-305f13824585)
+![image](https://github.com/user-attachments/assets/9c52ce67-ff67-4c2d-9823-1f9368f77e72)
+![image](https://github.com/user-attachments/assets/7b1c8285-73cf-48f9-8755-c0d307eeba69)
+
+
+
+
