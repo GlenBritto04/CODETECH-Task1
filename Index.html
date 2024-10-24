@@ -1,0 +1,275 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <!--created a Navigation bar for the portfolio website-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--A body section in which Im displaying my name and my designation with brief intro-->
+    <section class="home">
+        <div class="home-content" id="home">
+            <h3>Hello, It's Me</h3>
+            <h1>Glen Britto</h1>
+            <h3>And I'm a <span class="text">Fullstack Developer</span></h3>
+            <p>
+                <br>I'm a FullStack Developer with expertise is to create a website design, frontend design, and backend.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/glenbritto04/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.facebook.com/prince.britto.10485"><i class='bx bxl-facebook-square' ></i></a>
+                <a href="https://github.com/GlenBritto04/Projects.git"><i class='bx bxl-github' ></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <!--I have added a profile picture -->
+    <section class="about" id ="about">
+        <div class="about-img">
+            <img src="css/profile.png" alt="">
+        </div><!--Then a brief About me section have been added -->
+        <div class="about-text">
+            <h2>About<span> Me</span></h2>
+            <h4>FullStack Developer</h4>
+            <p>Innovative Full Stack Web Developer and skilled Technical Support Associate with a proven track record of delivering high-quality solutions and exceptional client support. With extensive experience in end-to-end web development, I excel in crafting responsive, user-centric applications using modern technologies such as HTML5, CSS3, JavaScript, and React. My ability to integrate advanced features and optimize performance ensures engaging and efficient user experiences.</p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <!--Section for th services which a provide-->
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My<span> Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAaVJREFUSEu9lc9KAlEUxr87qZuWjukigojQEZIcjKDaBu3a1Fu4bNMiI9vUOnqL1kHSLpACuZJQMyFFQZA1I73A6Inx76hjzgzqbGbgnvv9zjnz3XMZJvywCevDMSBRLc/7yLgyEzKYb68UXP50kpxjgKwraQAXTVFKczF+OVbA2s9TpCYIX6aov2ZEHsIr32MFmGKyrpD55qLkuPKewFVd3RVAZwBiTrIbjCFFqOOgMBe/bq/1AJK6UmFA2Jt4axfDGw9KS7YALy2wJmO3v6eC/oCUpkYLodjLfxVZY1wDkppywhgyROy0GIplrKCkpmYZoyMiZIsh6XiYCToVyLpyD2C97ZJE5XHW5wvkAGz0Oyf1W07WawZvABnyPChtWgEAbrgo7TSXG+eGmFxV6+0MTRs2AP5ADjQCAOS5OADoWLkB2Ceaea2qhhVgfnttkbXibou05zswtuX2INm5CMAtF6XtbotaUVO3ad+Ps3WrdWy4tulUAG7GhqcKxg34ALDgRtQm9p2L0qLtsGuN63MAUU8QQkkgOhw6rj2Jjtjk+GbyCv8DQX7lGXa9VYgAAAAASUVORK5CYII="/>
+                        <h2>RPA Automation</h2>
+                        <p>Robotic process automation - which means automating task. Automating your daily task can ease your work and can let you focus on the important work. Software robots can do it faster and more consistently than people, without the need to get up and stretch.</p>
+                        <a href="https://www.uipath.com/rpa/robotic-process-automation#:~:text=Robotic%20process%20automation%20(RPA)%20is,with%20digital%20systems%20and%20software." class="read">Learn more</a>
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXNJREFUSEvtlE9LAlEUxc97M1O7Wpip29C0pIUNEVjotwhaBxFtg75GtIgWQYugD2KFEaFC0aQYbUtnaNGyGd+LGTRmxvkjxuDGt33vnd+95x4uQcSHRKyPKSDU4clatNF9SfYEsluPrZ54lbquKccC41ePi/lPv1Z8O7DEKb0BkAHHfj2+cmEXkTXlkIOcAWgLjJX8IJ6AvvgtgDQI3iXDKD4k1jp2wGbnOaGLYhUcSwDeuC4WG6mM6u5kCFD4aMeJZFQtcaAl9YyyW3wg4oI0uS6W3BAHoC9u2pIzxckM3a7NZbWgqFgQQawAyAIYgvwBxhEfgOXv1gL/YXcDyKzEtu7n81/mfSQAu1X/tshdvXsOoUMOmkOY/w6L7IN0xNQnSaMkyBdgXpgQRmmFA8uckL1GLHdpL6KgNg8I4edmcgxDKj8l012vtAXuIllVUqB0pxbLnXp9ltXXI8rZ9VirInRNjvhgstt0xCIDn007CHXxFy3pxhnzECLsAAAAAElFTkSuQmCC"/>
+                        <h2>Web Development</h2>
+                        <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications.</p>
+                        <a href="https://www.geeksforgeeks.org/web-development/" class="read">Learn more</a>
+                    </div>
+                    <div>
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAJxJREFUSEtjZKAxYKSx+QxYLTB6c/0/yOJzIpoUO2AYWQALFvLi5P91pn8MJWfEtLah64cHEWUWMDAwMDLcOyesqYzTAvJcDtGFL1FQnErIsoDUZEqyD0YtQE4wVMnJo3FAMA+SE0QPGRgY5AiZDCvOsRUzMDmskWzw5oY/E8P/TgYGBnV8lpBtASGXo8uTHEQjzwJ8PqZKcY3PAgC2MX4ZK1wNnQAAAABJRU5ErkJggg=="/>
+                        <h2>Technical Support</h2>
+                        <p>Technical support workers help maintain, manage and repair IT systems. The role also involves diagnosing software or hardware faults and solving the issues over the phone or in person.Traditionally done on the phone, technical support can now be conducted online or through chat.</p>
+                        <a href="https://www.techopedia.com/definition/9675/technical-support-tech-support" class="read">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Few of my Technical skills using linear bars-->
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+        <div class="container1" id="skills">
+            <h1 class="heading1">Technical Skills</h1>
+
+            <div class="Technical-bars">
+                <div class="bar">
+                    <div class="info"><i class='bx bxl-html5' style="color: #c95d2e;"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info"><i style="color: #147bbc;" class='bx bxl-css3'></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info"><i style="color: #b0bc1e;" class='bx bxl-javascript'></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line JavaScript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info"><i style="color: grey"class='bx bx-bot' ></i>
+                        <span>RPA</span>
+                    </div>
+                    <div class="progress-line rpa">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info"><i style="color: #003455;" class='bx bxl-php' ></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="progress-line php">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info"><i style="color: #14d63e;" class='bx bxl-mongodb'></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="progress-line sql">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--My professional skills using radial bars-->
+        <div class="container1">
+            <div class="heading1">Professional Skills</div>
+            <div class="radial-bars">
+            <div class="radial-bars">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">creativity</div>
+            </div>
+            <div class="radial-bars">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="text">comunication</div>
+            </div>
+            <div class="radial-bars">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">problem solution</div>
+            </div>
+            <div class="radial-bars">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">95%</div>
+                <div class="text">Team Work</div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--The portfolio section-->
+    <section>
+        <div class="main-text" id="project">
+            <h2>Latest<span> Projects</span></h2>
+            <div class="portfolio-content">
+                <div class="row">
+                    <img src="css/chatApp.jpg" alt="">
+                    <div class="layer">
+                        <h3>Real Time Chat Application</h3>
+                        <p>The following chat applicaiton is built using React JS, Node JS and socket.io</p>
+
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"></path><path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"></path></svg></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="css/portfoliowebsite.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>The following website is build using Html, css, JavaScript, and flask</p>
+
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"></path><path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"></path></svg></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="css/rpa.jpg" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>The following website is build using Html, css, JavaScript, and flask</p>
+
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: msFilter"><path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"></path><path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"></path></svg></a>
+                    </div>
+                </div>
+            </div>
+            <h4 style="margin-top: 10px; margin-left: 10px;">Note: Currently the projects are not shown above, to know about the projects please contact me below!</h4>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work together</h4>
+            <p>Any work related quiries? please do contact me here</p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send' style='color:#2af7ef'  ></i> glenbritto04@gmail.com</li>
+                <li><i class='bx bxs-phone' style='color:#2af7ef' ></i> +91 9356400785</li>
+            </div>
+            <div class="contact-icons">
+                <a href="#"><i class='bx bxl-facebook' style='color:#2af7ef' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' style='color:#2af7ef' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square' style='color:#2af7ef' ></i></a>
+            </div>
+
+        </div>
+
+        <!--Contact Form-->
+        <div class="contact-form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="703a4690-0d81-47ce-bf9d-5d3351cedc83">
+                <input type="text" id="name" name="name"placeholder="Enter your Name" required>
+                <input type="email" id="email" name="email1" placeholder="Enter your Email" required>
+                <input type="text" id="phone" name="phone" placeholder="Enter your Phone Number">
+                <textarea name="t" id="message" cols="40" rows="10" placeholder="Enter your Message" required></textarea>
+
+                <input type="submit" value="Send" class="send">
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Developed by Glen Britto @ 2024</p>
+    </div>
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt' style='color:#2af7ef' ></i></a>
+    <script src="main.js"></script>
+
+    <!--Java Script code to submit the form-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "glenbrittopes@gmail.com",
+                Password : "****************",
+                To : 'glenbritto@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "And this is the body"
+            }).then(
+            message => alert(message)
+            );
+        }
+    </script>
+</body>
+</html>
